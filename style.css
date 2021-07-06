@@ -1,0 +1,161 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.skip-container{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+.half-width{
+    width: 40%;
+}
+
+#text{
+    margin-top: 8%;
+}
+
+#text p{
+    margin-bottom: 40px;
+}
+
+.button{
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.half-width img{
+    width: 80%;
+    padding-left: 60%;
+}
+/* End of the skip container */
+
+
+/* Start of the about container */
+.about-container{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(#834c19,#c2b56e);
+}
+
+.half-about{
+    width: 50%;
+}
+
+.half-about img{
+    width: 42%;
+    padding-top: 10%;
+    padding-left: 20%;
+}
+
+#about{
+    padding-top: 10%;
+}
+
+#about p{
+    padding-right: 80px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+/* End of the about container */
+
+/* Start of the recipe container */
+
+.recipie-container{
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 50px;
+}
+
+.recipie-text{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.recipie-text{
+    text-align: center;
+}
+
+.recipie-description{
+    display: flex;
+}
+
+.item{
+    width: 29.33%;
+    margin: 2%;
+    box-shadow: 5px 7px 12px grey, -5px -7px 12px black;
+    border-radius: 20px;
+}
+
+.item img{
+    width: 94%;
+    height: 40%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.description{
+    padding: 10px;
+}
+/* End of the recipie container */
+
+/* My Extran area */
+.extras{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.extra-item{
+    text-align: center;
+    width: 30%;
+    margin: 2%;
+    padding-top: 10px;
+    box-shadow: 1px 3px 12px cyan, -1px -3px 12px aqua;
+    border-radius: 20px;
+}
+
+.extra-item img{
+    width: 95%;
+    height: 60%;
+    border-radius: 20px;
+}
+/* End of extra area */
+
+footer{
+    text-align: center;
+    background-color: black;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer h2{
+    color: grey;
+}
+
+footer p{
+    color: white;
+}
